@@ -36,8 +36,8 @@ public class HomeWork1 {
         System.out.println("Logo name in the header: PHONEBOOK --> " + logoPhonebook.getText().equals("PHONEBOOK"));
         Boolean noHref = logoPhonebook.getAttribute("href") == null;
         System.out.println("The logo is not clickable and does not have an href attribute --> " + noHref);
-//        logoPhonebook.click();
-//        webdriver.navigate().refresh();
+        logoPhonebook.click();
+        webdriver.navigate().refresh();
     }
 
     @Test
