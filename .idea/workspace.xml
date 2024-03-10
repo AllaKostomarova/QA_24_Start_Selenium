@@ -57,6 +57,7 @@
     "Gradle.HomeWork1.findLoginFormBySelectors.executor": "Run",
     "Gradle.HomeWork1.findLoginFormElementsBySelectors.executor": "Run",
     "Gradle.HomeWork1.findTitleAboutBySelectors.executor": "Run",
+    "Gradle.HomeWork2XPath.classWork2.executor": "Run",
     "Gradle.HomeWork2XPath.cssLocators.executor": "Run",
     "Gradle.Index.cssLocators.executor": "Run",
     "Gradle.Index.tableTest.executor": "Run",
@@ -73,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.HomeWork2XPath.cssLocators">
+  <component name="RunManager" selected="Gradle.HomeWork2XPath.classWork2">
     <configuration name="HomeWork1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -122,7 +123,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="HomeWork1.findTitleAboutBySelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HomeWork2XPath.classWork2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +136,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;HomeWork1.findTitleAboutBySelectors&quot;" />
+            <option value="&quot;HomeWork2XPath.classWork2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -196,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HomeWork2XPath.classWork2" />
         <item itemvalue="Gradle.HomeWork2XPath.cssLocators" />
         <item itemvalue="Gradle.Index.tableTest" />
         <item itemvalue="Gradle.HomeWork1" />
         <item itemvalue="Gradle.HomeWork1.findLoginFormBySelectors" />
-        <item itemvalue="Gradle.HomeWork1.findTitleAboutBySelectors" />
       </list>
     </recent_temporary>
   </component>
@@ -222,6 +223,7 @@
       <workItem from="1709574201548" duration="19318000" />
       <workItem from="1709744940680" duration="971000" />
       <workItem from="1710009025355" duration="9267000" />
+      <workItem from="1710086398693" duration="3146000" />
     </task>
     <servers />
   </component>

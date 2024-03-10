@@ -44,10 +44,10 @@ public class HomeWork2XPath {
         //<a>
         WebElement a = wd.findElement(By.tagName("a"));
         WebElement a_1 = wd.findElement(By.cssSelector("a"));
-        List<WebElement>list = wd.findElements(By.tagName("a"));
+        List<WebElement> list = wd.findElements(By.tagName("a"));
 
         List<WebElement> headerTitles = wd.findElements((By.xpath("//div/div/a"))); // by XPath
-        Assert.assertTrue(headerTitles.size()==3);
+        Assert.assertTrue(headerTitles.size() == 3);
 
         WebElement titleHome = wd.findElement(By.xpath("//a[1]")); // by XPath
         Assert.assertEquals(titleHome.getText(), "HOME");
@@ -154,6 +154,46 @@ public class HomeWork2XPath {
         //by text
         WebElement el28 = wd.findElement(By.xpath("//a[text()='ABOUT']"));
         WebElement logo = wd.findElement(By.xpath("//*[text()='PHONEBOOK']"));
+
+    }
+
+    @Test
+    public void classWork() {
+        // parent
+        WebElement el = wd.findElement(By.xpath("//h1/.."));
+        WebElement el1 = wd.findElement(By.xpath("//h1/parent::div"));
+        WebElement el2 = wd.findElement(By.xpath("//h1/parent::*"));
+
+        //ancestor --> only pearents
+        WebElement el4 = wd.findElement(By.xpath("//h1/ancestor::*")); //all predkov
+        WebElement el5 = wd.findElement(By.xpath("//h1/ancestor::div")); //two
+        WebElement el6 = wd.findElement(By.xpath("//h1/ancestor::div[1]")); //one
+
+        //ancestor-or-self --> alement and pearents
+        List<WebElement> list1 = wd.findElements(By.xpath("//h1/ancestor-or-self::*")); //all predkov+element
+
+        // following-sibling
+        WebElement el8 = wd.findElement(By.xpath("//h1/following-sibling::a"));
+        //preceding-sibling
+        List<WebElement> list2 = wd.findElements(By.xpath("//a[last()]/preceding-sibling::h1")); //all predkov
+
+    }
+
+    @Test
+    public void classWork2(){
+        WebElement button = wd.findElement(By.cssSelector("[name='login']"));
+       String text = button.getText();
+        System.out.println(text);
+        WebElement form = wd.findElement(By.tagName("form"));
+        String text1 = form.getText();
+        System.out.println(text1);
+
+        WebElement html = wd.findElement(By.cssSelector("html"));
+        String text2 = html.getText();
+        System.out.println(text2);
+
+        WebElement br = wd.findElement(By.tagName("br"));
+        System.out.println("text br --> " + br.getText());
     }
 
 }
