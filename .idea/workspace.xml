@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a04f84ca-995f-49b8-aa43-4a538f949cbe" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/HomeWork2XPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Index.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Index.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork2XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork2XPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +221,7 @@
       <updated>1709574200543</updated>
       <workItem from="1709574201548" duration="19318000" />
       <workItem from="1709744940680" duration="971000" />
-      <workItem from="1710009025355" duration="7513000" />
+      <workItem from="1710009025355" duration="9267000" />
     </task>
     <servers />
   </component>
