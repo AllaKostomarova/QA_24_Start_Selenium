@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a04f84ca-995f-49b8-aa43-4a538f949cbe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HomeWork2XPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HomeWork2XPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,30 +49,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.HomeWork1.executor": "Run",
-    "Gradle.HomeWork1.findElementsByCssSelectors.executor": "Run",
-    "Gradle.HomeWork1.findLoginFormBySelectors.executor": "Run",
-    "Gradle.HomeWork1.findLoginFormElementsBySelectors.executor": "Run",
-    "Gradle.HomeWork1.findTitleAboutBySelectors.executor": "Run",
-    "Gradle.HomeWork2XPath.classWork2.executor": "Run",
-    "Gradle.HomeWork2XPath.cssLocators.executor": "Run",
-    "Gradle.Index.cssLocators.executor": "Run",
-    "Gradle.Index.tableTest.executor": "Run",
-    "Gradle.StartSelenium.test.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.HomeWork1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWork1.findElementsByCssSelectors.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWork1.findLoginFormBySelectors.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWork1.findLoginFormElementsBySelectors.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWork1.findTitleAboutBySelectors.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWork2XPath.classWork2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HomeWork2XPath.cssLocators.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Index.cssLocators.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Index.tableTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.StartSelenium.test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Gradle.HomeWork2XPath.classWork2">
     <configuration name="HomeWork1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -223,7 +222,10 @@
       <workItem from="1709574201548" duration="19318000" />
       <workItem from="1709744940680" duration="971000" />
       <workItem from="1710009025355" duration="9267000" />
-      <workItem from="1710086398693" duration="3146000" />
+      <workItem from="1710086398693" duration="4252000" />
+      <workItem from="1710590380358" duration="63000" />
+      <workItem from="1710593551338" duration="156000" />
+      <workItem from="1711040270193" duration="473000" />
     </task>
     <servers />
   </component>
